@@ -1,0 +1,10 @@
+# This file ALLOWS search engines to index the website
+
+User-agent: *
+Allow: /
+
+# Help search engines find your sitemap
+Sitemap: https://craftersheavenmedia.github.io/go/sitemap.xml
+
+# Optional: Set crawl delay to be respectful (in seconds)
+Crawl-delay: 1

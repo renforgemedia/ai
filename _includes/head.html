@@ -1,0 +1,95 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "RenForge",
+    "url": "https://craftersheavenmedia.github.io/go/",
+    "logo": "https://craftersheavenmedia.github.io/go/assets/img/social-preview.jpg",
+  }
+</script>
+<head>
+  {% if site.analytics.google %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "{{ site.analytics.google }}");
+  </script>
+  <!-- End Google Analytics -->
+  {% endif %}
+
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="HENcxybLvo5J-06NhYNEmbcnPslDNvF6GccpciDcIsk" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--<meta name="description" content="{{ site.description }}">-->
+  <meta name="description" content="We are a dedicated home-improvement agency that help empower home improvement businesses by connecting them with genuine, quote-ready clients. With a deep understanding of the challenges businesses face in finding reliable leads, we’ve developed a streamlined approach that takes the guesswork out of client acquisition.">
+  <!-- <meta name="author" content="{{ site.author }}"> -->
+  <meta name="author" content="Gaurav Das">
+  <!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"> -->
+  <link rel="canonical" href="https://craftersheavenmedia.github.io/go/">
+
+  <!-- Test -->
+  <!-- Add icons and web manifest -->
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="/go/assets/img/apple-touch-icon.png"> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/go/assets/img/renforge-apple-touch-icon.png">
+<!--   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> -->
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="/go/assets/img/favicon-32x32.png"> -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/go/assets/img/renforge-favicon-32x32.png">
+<!--   <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png"> -->
+  <!-- <link rel="icon" type="image/png" sizes="16x16" href="/go/assets/img/favicon-16x16.png"> -->
+  <link rel="icon" type="image/png" sizes="16x16" href="/go/assets/img/renforge-favicon-16x16.png">
+  <!-- <link rel="manifest" href="/site.webmanifest"> -->
+  <!-- Test End -->
+
+  <!-- Test Start -->
+  <meta name="keywords" content="home improvement, client acquisition, lead generation, business growth">
+
+  <meta property="og:title" content="Crafter's Heaven Media - Home Improvement Lead Agency" />
+  <meta property="og:description" content="We empower home improvement businesses by connecting them with genuine clients." />
+  <meta property="og:url" content="https://craftersheavenmedia.github.io/go/" />
+  <meta property="og:image" content="https://craftersheavenmedia.github.io/go/assets/img/social-preview.jpg" />
+  <!-- Test End -->
+  
+  <!-- <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title> -->
+  <!-- <title>CH Media - The Best Ads Agency!</title> -->
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom fonts for this template -->
+  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+  {% if site.data.style.fonts_urls %}
+    {% for font_url in site.data.style.fonts_urls %}
+      <link href="{{font_url}}" rel="stylesheet" type="text/css">
+    {% endfor %}
+  {% else %}
+    <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  {% endif %}
+  <!-- Custom styles for this theme -->
+  <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
+  <link href="assets/css/agency.css" rel="stylesheet" />
+
+  <!-- Page container change top padding when nav shrinks -->
+  {% if page.layout == "page" %}
+  <style>
+    #pagecontainer {
+      padding-top: 150px;
+    }
+    @media only screen and (max-width: 991px) {
+      #pagecontainer {
+        padding-top: 100px;
+      }
+    }
+  </style>
+  {% endif %}
+</head>
