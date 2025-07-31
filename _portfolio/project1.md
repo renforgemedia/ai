@@ -7,7 +7,7 @@ title: Launching Ads
 caption:
   title: Launching Ads
   subtitle: Carefully curated ads are strategically placed across various social media platforms for maximum output.
-  thumbnail: /assets/img/Online Advertisements - Our Process (2).png
+  thumbnail: /go/assets/img/Online Advertisements - Our Process (2).png
 ---
 When it comes to promoting your business, carefully curated ads are key to reaching the right audience. At RenForge, we ensure that each ad is strategically placed across various social media platforms to generate maximum engagement and output. By understanding your target market and crafting compelling visuals and messaging, we help your business stand out in the crowded digital landscape.
 
