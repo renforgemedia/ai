@@ -3,7 +3,7 @@ caption: #what displays in the portfolio grid:
   title: Gathering Content
   subtitle: Collection of visuals that highlight your expert craftmanship.
   #thumbnail: https://place-hold.it/400x300
-  thumbnail: /go/assets/img/Photographs - Our Process.jpg
+  thumbnail: /assets/img/Photographs - Our Process.jpg
   alt: Your Work!
   
 #what displays when the item is clicked:
