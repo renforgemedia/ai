@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 
 # Help search engines find your sitemap
-Sitemap: https://craftersheavenmedia.github.io/go/sitemap.xml
+Sitemap: https://renforgemedia.github.io/ai/sitemap.xml
 
 # Optional: Set crawl delay to be respectful (in seconds)
 Crawl-delay: 1
